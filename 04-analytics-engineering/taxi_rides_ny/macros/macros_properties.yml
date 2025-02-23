@@ -10,3 +10,12 @@ macros:
         description: > 
           payment_type value.
           Must be one of the accepted values, otherwise the macro will return null
+  - name: pickup_date_quarter
+    description: >
+      Returns the month of pickup datetime.
+    arguments:
+      - name: pickup_datetime
+        type: timestamp
+        description: > 
+          quarter of pickup datetime
+          Must be one of the accepted values, otherwise the macro will return null

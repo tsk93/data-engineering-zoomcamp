@@ -6,6 +6,7 @@ sources:
     schema: "{{ env_var('DBT_SCHEMA', 'trips_data_all') }}"
       # loaded_at_field: record_loaded_at
     tables:
+      - name: fhv_tripdata
       - name: green_tripdata
       - name: yellow_tripdata
          # freshness:
